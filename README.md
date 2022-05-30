@@ -11,7 +11,8 @@ Raspberry Pi 3 was used and Python was used.<br>
   4. The CommandModule.py analyzes the sentence and executes the command.<br>
   5. if you want to another cmd -> press the clear button.<br>
   <br>
- ### A recognizable sentence <br>
+  
+ ## A recognizable sentence <br>
    - turn on/off the lamp<br>
    - take a picture<br>
    - open/close the door<br>
