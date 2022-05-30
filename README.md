@@ -1,5 +1,5 @@
 # MySmartHome
-
+## Code is on master branch!
 This project is the final submission task for class 'MOBILE SYSTEM CONVERGENCE AND PRACTICE[501]' <br>
 It operates LEDs, cameras, and motors through voice recognition.<br>
 Raspberry Pi 3 was used and Python was used.<br>
