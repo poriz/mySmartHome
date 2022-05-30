@@ -1,12 +1,13 @@
 import tkinter
 import SpeechToText 
 import TextToSpeech
-#import CommandModule
+import CommandModule
 
 global data
 data = ""
 
 root = tkinter.Tk()
+
 def changeOri():
      cc = c.create_oval(50,50,150,150,fill="white")
      label['text']="Press the button and tell me your requirements"
@@ -18,7 +19,10 @@ def click():
     global data
     data1 = SpeechToText.SpeechToText1()
     data = data1.return1()
-    print("Data is "+data)
+    cmd = CommandModule.Command(data)
+    cmd.chooseCommand(data)
+    
+    print(data)
     
     
 c= tkinter.Canvas(root,width=200,height=200)

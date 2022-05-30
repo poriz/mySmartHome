@@ -1,14 +1,12 @@
 from gtts import gTTS
 import pygame
 
-class TextToSpeech:
-    def __init__(text):
-        tts=gTTS(text=text,lang='en')
-        tts.save('returnVoice.mp3')
-        
-    def Play(self):
+class ttSpeech:
+    def __init__(self,text1):
+        self.tts=gTTS(text=text1,lang='en')
+        self.tts.save('returnVoice.mp3')
         pygame.mixer.init()
-        pygame.mixer.music.load('/home/pi/final_project/test.mp3')
+        pygame.mixer.music.load('./returnVoice.mp3')
         pygame.mixer.music.play()
 
 
