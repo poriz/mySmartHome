@@ -13,14 +13,14 @@ Raspberry Pi 3 was used and Python was used.<br>
   <br>
   
 ## A recognizable sentence <br>
-   - turn on/off the lamp<br>
-   - take a picture<br>
-   - open/close the door<br>
+  - turn on/off the lamp<br>
+  - take a picture<br>
+  - open/close the door<br>
  <br>
  <br>
  
 ## Reference<br>
-    - TTS : https://pypi.org/project/SpeechRecognition/<br>
-    - STT : https://pypi.org/project/gTTS/<br>
-    - GPIO : https://pypi.org/project/RPi.GPIO/<br>
+  - TTS : https://pypi.org/project/SpeechRecognition/<br>
+  - STT : https://pypi.org/project/gTTS/<br>
+  - GPIO : https://pypi.org/project/RPi.GPIO/<br>
     
