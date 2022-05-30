@@ -12,13 +12,14 @@ Raspberry Pi 3 was used and Python was used.<br>
   5. if you want to another cmd -> press the clear button.<br>
   <br>
   
- ## A recognizable sentence <br>
+## A recognizable sentence <br>
    - turn on/off the lamp<br>
    - take a picture<br>
    - open/close the door<br>
  <br>
-   <br>
-  #### Reference<br>
+ <br>
+ 
+## Reference<br>
     - TTS : https://pypi.org/project/SpeechRecognition/<br>
     - STT : https://pypi.org/project/gTTS/<br>
     - GPIO : https://pypi.org/project/RPi.GPIO/<br>
