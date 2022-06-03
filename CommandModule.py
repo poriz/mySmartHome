@@ -8,16 +8,16 @@ class Command:
     def chooseCommand(self,str):
         if self.str == "turn on the lamp":
             self.Gcmd.LampOn()
-            
         elif self.str == "turn off the lamp":
             self.Gcmd.LampOff()
-            
         elif self.str == "take a picture":
-            Gcmd.takePicture()
+            self.Gcmd.TakePicture()
         elif self.str == "open the door":
-            Gcmd.open1
+            self.Gcmd.DoorOpen()
         elif self.str == "close the door":
-            Gcmd.close1
+            self.Gcmd.DoorClose()
+        elif self.str == "clear":
+            self.Gcmd.clear()
         else:
             return 0
         

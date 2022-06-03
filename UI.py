@@ -2,15 +2,24 @@ import tkinter
 import SpeechToText 
 import TextToSpeech
 import CommandModule
+import RPi.GPIO as GPIO
 
 global data
 data = ""
 
 root = tkinter.Tk()
 
+
 def changeOri():
      cc = c.create_oval(50,50,150,150,fill="white")
      label['text']="Press the button and tell me your requirements"
+     GPIO.cleanup()
+     global data
+     data =""
+     cmd = CommandModule.Command(data)
+     cmd.chooseCommand("clear")
+     
+     
 def changeblue():
     cc = c.create_oval(50,50,150,150,fill="blue")
     label['text']="Complete!"
@@ -21,8 +30,8 @@ def click():
     data = data1.return1()
     cmd = CommandModule.Command(data)
     cmd.chooseCommand(data)
-    
     print(data)
+    
     
     
 c= tkinter.Canvas(root,width=200,height=200)
